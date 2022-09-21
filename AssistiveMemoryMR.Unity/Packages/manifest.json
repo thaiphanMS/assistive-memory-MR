@@ -1,5 +1,6 @@
 {
-  "dependencies": {
+    "dependencies": {
+    "com.ptc.vuforia.engine": "file:com.ptc.vuforia.engine-10.10.2.tgz",
     "com.microsoft.mixedreality.openxr": "file:MixedReality/com.microsoft.mixedreality.openxr-1.5.1.tgz",
     "com.microsoft.mrtk.core": "file:MixedReality/com.microsoft.mrtk.core-3.0.0-pre.11.tgz",
     "com.microsoft.mrtk.graphicstools.unity": "file:MixedReality/com.microsoft.mrtk.graphicstools.unity-0.4.0.tgz",
