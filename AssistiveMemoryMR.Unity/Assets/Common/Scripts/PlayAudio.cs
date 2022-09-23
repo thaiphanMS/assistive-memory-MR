@@ -25,6 +25,7 @@ public class PlayAudio : MonoBehaviour
 
         else
         {
+            this.PauseEverything();
             this.audioSource.Play();
             PauseIcon.SetActive(true);
             PlayIcon.SetActive(false);
@@ -33,5 +34,12 @@ public class PlayAudio : MonoBehaviour
         }
     }
 
-
+    public void PauseEverything()
+    {
+        AudioSource [] allAudioSources = FindObjectsOfType<AudioSource>();
+        foreach (AudioSource audio in allAudioSources)
+        {
+            audio.Pause();
+        }
+    }
 }
