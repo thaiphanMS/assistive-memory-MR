@@ -40,7 +40,7 @@ MonoBehaviour:
     autoImportArcore: 1
     thirdPartyARCoreClientDetected: 0
   playmode:
-    mSequencePath: 
+    mSequencePath: C:/Users/sarahheinzen/Downloads/MicrosoftTeams-video (1).mp4
     playModeType: 1
   webcam:
     renderTextureLayer: 30

@@ -5,21 +5,33 @@ using UnityEngine;
 public class PlayAudio : MonoBehaviour
 {
     public AudioSource audioSource;
+    public GameObject PlayIcon;
+    public GameObject PauseIcon;
+    public GameObject PlayText;
+    public GameObject PauseText;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+  
     public void Play()
     {
-        this.audioSource.Play();
+
+        if (this.audioSource.isPlaying)
+        {
+            this.audioSource.Pause();
+            PauseIcon.SetActive(false);
+            PlayIcon.SetActive(true);
+            PauseText.SetActive(false);
+            PlayText.SetActive(true);
+        }
+
+        else
+        {
+            this.audioSource.Play();
+            PauseIcon.SetActive(true);
+            PlayIcon.SetActive(false);
+            PauseText.SetActive(true);
+            PlayText.SetActive(false);
+        }
     }
+
+
 }
