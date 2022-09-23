@@ -75,8 +75,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280295456
-  m_fontColor: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -330,8 +330,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280295456
-  m_fontColor: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1020,8 +1020,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280229663
-  m_fontColor: {r: 0.122641504, g: 0.122641504, b: 0.122641504, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1231,8 +1231,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280229663
-  m_fontColor: {r: 0.122641504, g: 0.122641504, b: 0.122641504, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1367,7 +1367,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4280295456
-  m_fontColor: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 1}
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1668,6 +1668,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 544877681549288867}
     m_Modifications:
+    - target: {fileID: 602120198761790868, guid: 7e6cfdda64009b849a4ddf46b5203eda, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 602120198761790868, guid: 7e6cfdda64009b849a4ddf46b5203eda, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 602120198761790868, guid: 7e6cfdda64009b849a4ddf46b5203eda, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 602120198761790868, guid: 7e6cfdda64009b849a4ddf46b5203eda, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673532145214448433, guid: 7e6cfdda64009b849a4ddf46b5203eda, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: 97bba759241a08c459635d2004440eaf, type: 2}
     - target: {fileID: 1673532145214448438, guid: 7e6cfdda64009b849a4ddf46b5203eda, type: 3}
       propertyPath: m_Name
       value: CanvasButtonBar_SharedBackplate
@@ -1848,6 +1868,22 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4265557744407917486, guid: 7e6cfdda64009b849a4ddf46b5203eda, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4265557744407917486, guid: 7e6cfdda64009b849a4ddf46b5203eda, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4265557744407917486, guid: 7e6cfdda64009b849a4ddf46b5203eda, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4265557744407917486, guid: 7e6cfdda64009b849a4ddf46b5203eda, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e6cfdda64009b849a4ddf46b5203eda, type: 3}
 --- !u!224 &1361235290872668915 stripped
@@ -1957,7 +1993,7 @@ PrefabInstance:
     - target: {fileID: 8652067621810633434, guid: 9d54fefbfd15f194cbaf3beeff5f6d10, type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 2100000, guid: fdbd1a6762c80384296aade6d585a8b1, type: 2}
+      objectReference: {fileID: 2100000, guid: 97bba759241a08c459635d2004440eaf, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d54fefbfd15f194cbaf3beeff5f6d10, type: 3}
 --- !u!224 &745324731880551084 stripped

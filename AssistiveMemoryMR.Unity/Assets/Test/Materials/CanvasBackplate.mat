@@ -59,7 +59,7 @@ Material:
     - _Line_Disabled_: 0
     - _Line_Enable_: 1
     - _Line_Gradient_Blend_: 0
-    - _Line_Width_: 0.77
+    - _Line_Width_: 0.89
     - _Occluded_Intensity_: 1
     - _Orthographic_Distance_: 400.92
     - _Rate_: 0.049
@@ -73,17 +73,17 @@ Material:
     - _ZTest: 4
     - _ZWrite: 1
     m_Colors:
-    - _Base_Color_: {r: 1, g: 1, b: 1, a: 0.72156864}
-    - _Bottom_Left_: {r: 0, g: 0.33, b: 0.88, a: 1}
+    - _Base_Color_: {r: 0.08876231, g: 0.10022271, b: 0.103773594, a: 0.72156864}
+    - _Bottom_Left_: {r: 0, g: 0.8784314, b: 0.7692405, a: 1}
     - _Bottom_Right_: {r: 1, g: 1, b: 1, a: 1}
     - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
     - _ClipRectRadii: {r: 10, g: 10, b: 10, a: 10}
-    - _Gradient_Color_: {r: 0.631373, g: 0.631373, b: 0.631373, a: 1}
-    - _Highlight_Color_: {r: 0.78653544, g: 0.6428444, b: 0.8773585, a: 0.4745098}
+    - _Gradient_Color_: {r: 0.2264151, g: 0.2264151, b: 0.2264151, a: 1}
+    - _Highlight_Color_: {r: 0.91194963, g: 0.95597136, b: 1, a: 0.4745098}
     - _Highlight_Transform_: {r: 1, g: 1, b: 0, a: 0}
     - _Iridescence_Tint_: {r: 1, g: 1, b: 1, a: 0.7019608}
-    - _Line_Color_: {r: 0.1792453, g: 0.1792453, b: 0.1792453, a: 0.56078434}
+    - _Line_Color_: {r: 0.66559863, g: 0.71537983, b: 0.745283, a: 0.56078434}
     - _OccludedColor: {r: 0, g: 0.5, b: 1, a: 0.7647059}
     - _Top_Left_: {r: 1, g: 0.690196, b: 0.976471, a: 1}
-    - _Top_Right_: {r: 0, g: 0.33, b: 0.88, a: 1}
+    - _Top_Right_: {r: 0, g: 0.8162168, b: 0.8784314, a: 1}
   m_BuildTextureStacks: []

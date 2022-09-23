@@ -78,7 +78,7 @@ Material:
     - _ZTest: 4
     - _ZWrite: 1
     m_Colors:
-    - _Base_Color_: {r: 0.8223567, g: 0.8443813, b: 0.8490566, a: 0.36078432}
+    - _Base_Color_: {r: 0.16687429, g: 0.29578012, b: 0.4245283, a: 0.30588236}
     - _Bottom_Left_: {r: 0.65723264, g: 0.9049213, b: 1, a: 1}
     - _Bottom_Right_: {r: 0.28930813, g: 0.63647884, b: 1, a: 1}
     - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
@@ -87,7 +87,7 @@ Material:
     - _Gradient_Color_: {r: 1, g: 1, b: 1, a: 1}
     - _Highlight_Color_: {r: 0.98742133, g: 0.9916142, b: 1, a: 1}
     - _Highlight_Transform_: {r: 1, g: 1, b: 0, a: 0}
-    - _Iridescence_Tint_: {r: 0.7232704, g: 0.97567594, b: 1, a: 1}
+    - _Iridescence_Tint_: {r: 0.11771686, g: 0.14777896, b: 0.1509434, a: 1}
     - _Line_Color_: {r: 1, g: 1, b: 1, a: 1}
     - _OccludedColor: {r: 1, g: 1, b: 1, a: 1}
     - _Top_Left_: {r: 0.32704395, g: 0.66634935, b: 1, a: 1}
